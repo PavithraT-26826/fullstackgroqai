@@ -14,7 +14,7 @@ st.set_page_config(
 )
 
 st.title("⚡ Full Stack Groq AI")
-st.caption("Unit IV Production Chatbot Demo | Built with Streamlit & Groq")
+st.caption("Built with Streamlit & Groq")
 
 # 2. Initialize Secrets & Engine for GROQ
 api_key = os.getenv("GROQ_API_KEY")
