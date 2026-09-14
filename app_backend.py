@@ -18,7 +18,7 @@ class GeminiChatEngine:  # Kept as GeminiChatEngine so app_frontend.py doesn't b
         
         # Connect to Groq Client
         self.client = Groq(api_key=self.api_key)
-        self.model_name = model_name or "llama3-8b-8192"
+        self.model_name = model_name or "llama-3.3-70b-versatile"
         logger.info(f"Initialized Groq Engine with model: {self.model_name}")
 
     def generate_chat_response(
